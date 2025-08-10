@@ -92,6 +92,18 @@ const About = () => {
             <div className="mt-4 w-32 h-1 bg-gradient-to-r from-primary to-[#9b87f5] rounded-full"></div>
           </div>
 
+          {/* Group photo of founders */}
+          <div className="flex justify-center mb-16">
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-[#9b87f5]/20 to-[#0EA5E9]/20 rounded-2xl blur-lg"></div>
+              <img 
+                src="/lovable-uploads/f2ff0abf-95b9-4ce6-8d40-d393cbbd6935.png" 
+                alt="Plurai Founders - Ohad Mandelbaum, Dr. Ilan Kadar, and Dr. Elad Levi" 
+                className="relative z-10 w-full max-w-2xl h-auto object-cover rounded-2xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50 shadow-xl"
+              />
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             {/* Ohad Mandelbaum */}
             <div className="flex flex-col space-y-6 bg-gradient-to-br from-white/5 to-[#0EA5E9]/5 dark:from-[#1A1F2C]/40 dark:to-[#1A1F2C]/20 p-8 rounded-2xl backdrop-blur-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-[#0EA5E9]/20 dark:border-[#0EA5E9]/10">
