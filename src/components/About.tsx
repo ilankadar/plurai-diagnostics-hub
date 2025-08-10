@@ -110,7 +110,7 @@ const About = () => {
                 </div>
                 <h3 className="text-2xl font-bold mt-2 text-foreground">Ohad Mandelbaum</h3>
                 <p className="text-[#0EA5E9] font-semibold">Co-Founder & CEO</p>
-                <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-[#0EA5E9] hover:text-[#0284C7] transition-colors">
+                <a href="https://www.linkedin.com/in/ohad-mandelbaum/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-[#0EA5E9] hover:text-[#0284C7] transition-colors">
                   <img src="/lovable-uploads/2fedd162-37f8-4f2e-be1d-037a533c0860.png" alt="LinkedIn" className="w-6 h-6" />
                 </a>
               </div>
