@@ -93,6 +93,26 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            {/* Ohad Mandelbaum */}
+            <div className="flex flex-col space-y-6 bg-gradient-to-br from-white/5 to-[#0EA5E9]/5 dark:from-[#1A1F2C]/40 dark:to-[#1A1F2C]/20 p-8 rounded-2xl backdrop-blur-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-[#0EA5E9]/20 dark:border-[#0EA5E9]/10">
+              <div className="flex flex-col items-center space-y-4">
+                <div className="relative">
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#0EA5E9]/40 to-primary/40 rounded-xl blur-lg"></div>
+                  <img src="/lovable-uploads/b0bb635c-4105-423a-92cf-d13f7c6a5840.png" alt="Ohad Mandelbaum" className="relative z-10 w-48 h-48 object-cover rounded-xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50" />
+                </div>
+                <h3 className="text-2xl font-bold mt-2 text-foreground">Ohad Mandelbaum</h3>
+                <p className="text-[#0EA5E9] font-semibold">Co-Founder & CEO</p>
+                <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-[#0EA5E9] hover:text-[#0284C7] transition-colors">
+                  <img src="/lovable-uploads/2fedd162-37f8-4f2e-be1d-037a533c0860.png" alt="LinkedIn" className="w-6 h-6" />
+                </a>
+              </div>
+              <div className="bg-white/5 dark:bg-[#1A1F2C]/30 p-6 rounded-xl border border-[#0EA5E9]/10 dark:border-[#0EA5E9]/5">
+                <p className="text-foreground/80 leading-relaxed">
+                  Ohad Mandelbaum brings over 20 years of global go-to-market leadership to Plurai, where he drives company vision and growth. He previously served as Chief Revenue Officer at Perimeter 81, SVP Global Sales at BrainsWay, and spent over a decade in executive roles at Alma Lasers and Good Energies. Across cybersecurity, AI, and medtech, Ohad has built and scaled high-impact sales, marketing, and business development operations. With an engineering background and an EMBA from Kellogg, he combines strategic depth with executional excellence to turn innovation into category-defining companies.
+                </p>
+              </div>
+            </div>
+
             {/* Dr. Ilan Kadar */}
             <div className="flex flex-col space-y-6 bg-gradient-to-br from-white/5 to-primary/5 dark:from-[#1A1F2C]/40 dark:to-[#1A1F2C]/20 p-8 rounded-2xl backdrop-blur-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-primary/20 dark:border-primary/10">
               <div className="flex flex-col items-center space-y-4">
@@ -129,26 +149,6 @@ const About = () => {
               <div className="bg-white/5 dark:bg-[#1A1F2C]/30 p-6 rounded-xl border border-[#9b87f5]/10 dark:border-[#9b87f5]/5">
                 <p className="text-foreground/80 leading-relaxed">
                   Dr. Elad Levi is a distinguished AI expert with over a decade of experience developing groundbreaking AI products. As the creator of <a href="https://github.com/Eladlev/AutoPrompt" target="_blank" rel="noopener noreferrer" className="text-[#9b87f5] hover:underline">AutoPrompt</a>, an open-source tool that has earned over 2,300 GitHub stars and 100,000+ downloads, he has demonstrated exceptional innovation in the field. Previously, Dr. Levi served as Principal Scientist at Sightful and AI Architect at Nexar. Holding a PhD in Mathematics, he has published significant research in top-tier machine learning conferences and is recognized as a leading expert in artificial intelligence.
-                </p>
-              </div>
-            </div>
-
-            {/* Ohad Mandelbaum */}
-            <div className="flex flex-col space-y-6 bg-gradient-to-br from-white/5 to-[#0EA5E9]/5 dark:from-[#1A1F2C]/40 dark:to-[#1A1F2C]/20 p-8 rounded-2xl backdrop-blur-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-[#0EA5E9]/20 dark:border-[#0EA5E9]/10">
-              <div className="flex flex-col items-center space-y-4">
-                <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-[#0EA5E9]/40 to-primary/40 rounded-xl blur-lg"></div>
-                  <img src="/lovable-uploads/b0bb635c-4105-423a-92cf-d13f7c6a5840.png" alt="Ohad Mandelbaum" className="relative z-10 w-48 h-48 object-cover rounded-xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50" />
-                </div>
-                <h3 className="text-2xl font-bold mt-2 text-foreground">Ohad Mandelbaum</h3>
-                <p className="text-[#0EA5E9] font-semibold">Co-Founder & CEO</p>
-                <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-[#0EA5E9] hover:text-[#0284C7] transition-colors">
-                  <img src="/lovable-uploads/2fedd162-37f8-4f2e-be1d-037a533c0860.png" alt="LinkedIn" className="w-6 h-6" />
-                </a>
-              </div>
-              <div className="bg-white/5 dark:bg-[#1A1F2C]/30 p-6 rounded-xl border border-[#0EA5E9]/10 dark:border-[#0EA5E9]/5">
-                <p className="text-foreground/80 leading-relaxed">
-                  Ohad Mandelbaum brings over 20 years of global go-to-market leadership to Plurai, where he drives company vision and growth. He previously served as Chief Revenue Officer at Perimeter 81, SVP Global Sales at BrainsWay, and spent over a decade in executive roles at Alma Lasers and Good Energies. Across cybersecurity, AI, and medtech, Ohad has built and scaled high-impact sales, marketing, and business development operations. With an engineering background and an EMBA from Kellogg, he combines strategic depth with executional excellence to turn innovation into category-defining companies.
                 </p>
               </div>
             </div>
