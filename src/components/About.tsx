@@ -160,7 +160,7 @@ const About = () => {
               </div>
               <div className="bg-white/5 dark:bg-[#1A1F2C]/30 p-6 rounded-xl border border-[#9b87f5]/10 dark:border-[#9b87f5]/5">
                 <p className="text-foreground/80 leading-relaxed">
-                  Dr. Elad Levi is a distinguished AI expert with over a decade of experience developing groundbreaking AI products. As the creator of <a href="https://github.com/Eladlev/AutoPrompt" target="_blank" rel="noopener noreferrer" className="text-[#9b87f5] hover:underline">AutoPrompt</a>, an open-source tool that has earned over 2,300 GitHub stars and 100,000+ downloads, he has demonstrated exceptional innovation in the field. Previously, Dr. Levi served as Principal Scientist at Sightful and AI Architect at Nexar. Holding a PhD in Mathematics, he has published significant research in top-tier machine learning conferences and is recognized as a leading expert in artificial intelligence.
+                  Dr. Elad Levi is a distinguished AI expert with over a decade of experience developing groundbreaking AI products. As the creator of <a href="https://github.com/Eladlev/AutoPrompt" target="_blank" rel="noopener noreferrer" className="text-[#9b87f5] hover:underline">AutoPrompt</a>, an open-source tool that has earned over 2,700 GitHub stars and 100,000+ downloads, he has demonstrated exceptional innovation in the field. Previously, Dr. Levi served as Principal Scientist at Sightful and AI Architect at Nexar. Holding a PhD in Mathematics, he has published significant research in top-tier machine learning conferences and is recognized as a leading expert in artificial intelligence.
                 </p>
               </div>
             </div>
