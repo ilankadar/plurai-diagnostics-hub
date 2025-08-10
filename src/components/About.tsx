@@ -1,11 +1,8 @@
-
 import { Shield, Rocket, BarChart3, Cpu, Award, BookOpen, GraduationCap, User, CircleCheck, Lightbulb, Lock, Sparkles, Share2, Users, Shield as ShieldIcon, Target, Zap, Users2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
-
 const About = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Mission Section with enhanced styling and colorful backgrounds */}
       <section className="py-24 px-4 relative overflow-hidden bg-gradient-to-b from-background to-accent/5">
         {/* Decorative background elements with more vibrant colors */}
@@ -101,16 +98,11 @@ const About = () => {
               <div className="flex flex-col items-center space-y-4">
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/40 to-[#9b87f5]/40 rounded-xl blur-lg"></div>
-                  <img src="/lovable-uploads/9f225bd6-6cec-469d-838d-701253bee991.png" 
-                       alt="Dr. Ilan Kadar" 
-                       className="relative z-10 w-48 h-48 object-cover rounded-xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50" />
+                  <img src="/lovable-uploads/9f225bd6-6cec-469d-838d-701253bee991.png" alt="Dr. Ilan Kadar" className="relative z-10 w-48 h-48 object-cover rounded-xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50" />
                 </div>
                 <h3 className="text-2xl font-bold mt-2 text-foreground">Dr. Ilan Kadar</h3>
-                <p className="text-primary font-semibold">Co-Founder and CEO</p>
-                <a href="https://www.linkedin.com/in/ilan-kadar-b57ba511b/" 
-                   target="_blank" 
-                   rel="noopener noreferrer" 
-                   className="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
+                <p className="text-primary font-semibold">Co-Founder and CTO</p>
+                <a href="https://www.linkedin.com/in/ilan-kadar-b57ba511b/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-primary hover:text-primary-dark transition-colors">
                   <img src="/lovable-uploads/2fedd162-37f8-4f2e-be1d-037a533c0860.png" alt="LinkedIn" className="w-6 h-6" />
                 </a>
               </div>
@@ -126,16 +118,11 @@ const About = () => {
               <div className="flex flex-col items-center space-y-4">
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-[#9b87f5]/40 to-primary/40 rounded-xl blur-lg"></div>
-                  <img src="/lovable-uploads/207201cb-1325-4455-bd43-4ffe838a33ea.png" 
-                       alt="Dr. Elad Levi" 
-                       className="relative z-10 w-48 h-48 object-cover rounded-xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50" />
+                  <img src="/lovable-uploads/207201cb-1325-4455-bd43-4ffe838a33ea.png" alt="Dr. Elad Levi" className="relative z-10 w-48 h-48 object-cover rounded-xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50" />
                 </div>
                 <h3 className="text-2xl font-bold mt-2 text-foreground">Dr. Elad Levi</h3>
                 <p className="text-[#9b87f5] font-semibold">Co-Founder and CTO</p>
-                <a href="https://www.linkedin.com/in/elad-levi-a938a3121/" 
-                   target="_blank" 
-                   rel="noopener noreferrer" 
-                   className="inline-flex items-center text-[#9b87f5] hover:text-[#7E69AB] transition-colors">
+                <a href="https://www.linkedin.com/in/elad-levi-a938a3121/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-[#9b87f5] hover:text-[#7E69AB] transition-colors">
                   <img src="/lovable-uploads/2fedd162-37f8-4f2e-be1d-037a533c0860.png" alt="LinkedIn" className="w-6 h-6" />
                 </a>
               </div>
@@ -173,8 +160,6 @@ const About = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default About;
