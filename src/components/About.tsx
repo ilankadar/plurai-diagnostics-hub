@@ -96,11 +96,7 @@ const About = () => {
           <div className="flex justify-center mb-16">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-[#9b87f5]/20 to-[#0EA5E9]/20 rounded-2xl blur-lg"></div>
-              <img 
-                src="/lovable-uploads/f2ff0abf-95b9-4ce6-8d40-d393cbbd6935.png" 
-                alt="Plurai Founders - Ohad Mandelbaum, Dr. Ilan Kadar, and Dr. Elad Levi" 
-                className="relative z-10 w-full max-w-2xl h-auto object-cover rounded-2xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50 shadow-xl"
-              />
+              <img src="/lovable-uploads/f2ff0abf-95b9-4ce6-8d40-d393cbbd6935.png" alt="Plurai Founders - Ohad Mandelbaum, Dr. Ilan Kadar, and Dr. Elad Levi" className="relative z-10 w-full max-w-2xl h-auto object-cover rounded-2xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50 shadow-xl" />
             </div>
           </div>
 
@@ -153,7 +149,7 @@ const About = () => {
                   <img src="/lovable-uploads/207201cb-1325-4455-bd43-4ffe838a33ea.png" alt="Dr. Elad Levi" className="relative z-10 w-48 h-48 object-cover rounded-xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50" />
                 </div>
                 <h3 className="text-2xl font-bold mt-2 text-foreground">Dr. Elad Levi</h3>
-                <p className="text-[#9b87f5] font-semibold">Co-Founder and CTO</p>
+                <p className="text-[#9b87f5] font-semibold">Co-Founder and CSO</p>
                 <a href="https://www.linkedin.com/in/elad-levi-a938a3121/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-[#9b87f5] hover:text-[#7E69AB] transition-colors">
                   <img src="/lovable-uploads/2fedd162-37f8-4f2e-be1d-037a533c0860.png" alt="LinkedIn" className="w-6 h-6" />
                 </a>
