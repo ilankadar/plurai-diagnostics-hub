@@ -146,7 +146,7 @@ const About = () => {
               <div className="flex flex-col items-center space-y-4">
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-[#9b87f5]/40 to-primary/40 rounded-xl blur-lg"></div>
-                  <img src="/lovable-uploads/207201cb-1325-4455-bd43-4ffe838a33ea.png" alt="Dr. Elad Levi" className="relative z-10 w-48 h-48 object-cover rounded-xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50" />
+                  <img src="/lovable-uploads/3f1bc583-7935-4708-beec-5421c3516986.png" alt="Dr. Elad Levi" className="relative z-10 w-48 h-48 object-cover rounded-xl ring-4 ring-white/20 dark:ring-[#1A1F2C]/50" />
                 </div>
                 <h3 className="text-2xl font-bold mt-2 text-foreground">Dr. Elad Levi</h3>
                 <p className="text-[#9b87f5] font-semibold">Co-Founder and CSO</p>
